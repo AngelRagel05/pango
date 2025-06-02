@@ -1,8 +1,10 @@
-<footer style="background-color: #f8f9fa; padding: 20px; text-align: center; margin-top: 40px;">
-    <p>&copy; {{ date('Y') }} Mi Sitio Web. Todos los derechos reservados.</p>
-    <div style="margin-top: 10px;">
-        <a href="/privacidad" style="margin: 0 10px;">Política de privacidad</a>
-        <a href="/terminos" style="margin: 0 10px;">Términos y condiciones</a>
-        <a href="/contacto" style="margin: 0 10px;">Contacto</a>
+<footer class="bg-light text-center py-4 mt-5">
+    <div class="container">
+        <p class="mb-2">&copy; {{ date('Y') }} Mi Sitio Web. Todos los derechos reservados.</p>
+        <div>
+            <a href="/privacidad" class="text-muted mx-2">Política de privacidad</a>
+            <a href="/terminos" class="text-muted mx-2">Términos y condiciones</a>
+            <a href="/contacto" class="text-muted mx-2">Contacto</a>
+        </div>
     </div>
 </footer>

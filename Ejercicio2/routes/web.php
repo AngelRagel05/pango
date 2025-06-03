@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Http\Request;
 
 Route::get('/', function () {
     return view('mainText');
@@ -11,6 +12,9 @@ Route::get('/quienes-somos', function () {
 })->name('quienes.somos');
 
 Route::get('/proyecto/{numero?}', function ($numero = 1) {
+    if ($numero <= 0) {
+        return redirect('/')->with('error', 'El número del proyecto debe ser mayor que cero.');
+    }
     return view('proyectoText', ['numero' => $numero]);
 })->name('proyecto');
 

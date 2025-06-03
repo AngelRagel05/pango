@@ -13,3 +13,11 @@ Route::get('/quienes-somos', function () {
 Route::get('/proyecto/{numero?}', function ($numero = 1) {
     return view('proyectoText', ['numero' => $numero]);
 })->name('proyecto');
+
+Route::get('/servicios', function () {
+    return view('serviciosText');
+})->name('servicios');
+
+Route::get('/contacto', function () {
+    return view('contactoText');
+})->name('contacto');

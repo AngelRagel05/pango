@@ -4,7 +4,6 @@
         <div>
             <a href="/privacidad" class="text-muted mx-2">Política de privacidad</a>
             <a href="/terminos" class="text-muted mx-2">Términos y condiciones</a>
-            <a href="/contacto" class="text-muted mx-2">Contacto</a>
         </div>
     </div>
 </footer>

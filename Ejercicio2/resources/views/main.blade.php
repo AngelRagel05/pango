@@ -18,7 +18,7 @@
     @include('layouts.header')
 
     <main class="container my-5">
-        @yield('contenido')
+        @yield('contenidoMain')
     </main>
 
     @include('layouts.footer')

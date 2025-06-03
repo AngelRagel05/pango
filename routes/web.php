@@ -7,5 +7,9 @@ Route::get('/', function () {
 })->name('inicio');
 
 Route::get('/quienes-somos', function () {
-    return view('nosotros');
+    return view('nosotrosText');
 })->name('quienes.somos');
+
+Route::get('/proyecto', function () {
+    return view('proyectoText');
+})->name('proyecto');

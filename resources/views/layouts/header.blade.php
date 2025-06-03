@@ -4,6 +4,7 @@
         <nav>
             <a href="{{ route('inicio') }}" class="text-white text-decoration-none mx-2">Inicio</a>
             <a href="{{ route('quienes.somos') }}" class="text-white text-decoration-none mx-2">¿Quiénes somos?</a>
+            <a href="{{ route('proyecto') }}" class="text-white text-decoration-none mx-2">Proyecto</a>
         </nav>
     </div>
 </header>

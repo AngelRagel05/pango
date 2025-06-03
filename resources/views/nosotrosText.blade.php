@@ -1,9 +1,9 @@
-@extends('main')
+@extends('nosotros')
 
-@section('titulo', 'Inicio')
+@section('tituloNosotros', 'Nosotros')
 
-@section('contenido')
-    <h2>Bienvenidos a Laravel, TAD</h2>
+@section('contenidoNosotros')
+    <h2>Estás en la sección sobre nosotros.</h2>
 
     <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe magni hic sint! Ab repudiandae, amet, laudantium ex

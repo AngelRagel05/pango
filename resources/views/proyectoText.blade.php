@@ -3,7 +3,7 @@
 @section('titulo', 'Proyecto')
 
 @section('textoProyecto')
-    <h2>"Estás en el proyecto número: {{ $numero }}</h2>
+    <h2>Estás en el proyecto número: {{ $numero }}</h2>
 
     <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe magni hic sint! Ab repudiandae, amet, laudantium ex

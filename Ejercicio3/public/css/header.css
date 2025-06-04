@@ -35,3 +35,20 @@ header nav a:hover {
     transform: scale(1.1);
     text-decoration: none;
 }
+
+header a img {
+    max-height: 40px; /* móvil pequeño */
+    width: auto;
+}
+
+@media (min-width: 768px) { /* tablet */
+    header a img {
+        max-height: 50px;
+    }
+}
+
+@media (min-width: 1200px) { /* escritorio */
+    header a img {
+        max-height: 70px;
+    }
+}

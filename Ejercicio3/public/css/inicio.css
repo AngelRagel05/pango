@@ -1,0 +1,29 @@
+/* MAIN */
+main {
+    background-color: #E8F5E9; /* verde muy claro para contraste */
+    color: #1B5E20; /* verde oscuro para texto */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    height: 65vh;
+}
+
+/* Título principal */
+main h2 {
+    color: #2E7D32; /* verde intenso */
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+/* Párrafos */
+main p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+/* Resaltar fechas y hora */
+main p:last-of-type {
+    font-weight: bold;
+    color: #cdbc00; /* amarillo vivo */
+}

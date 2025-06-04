@@ -14,6 +14,7 @@
     <!-- Estilos personalizados -->
     <link rel="stylesheet" href="{{ asset('css/header.css') }}">
     <link rel="stylesheet" href="{{ asset('css/footer.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/inicio.css') }}">
     
     <title>@yield('title', 'Mi sitio web')</title>
 
@@ -21,6 +22,10 @@
 
 <body>
     @include('layouts.header')
+
+    <main class="container my-5">
+        @yield('contenidoInicio')
+    </main>
 
     @include('layouts.footer')
 </body>

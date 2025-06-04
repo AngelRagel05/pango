@@ -1,0 +1,23 @@
+header {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 1rem 0;
+    margin-bottom: 1.5rem;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: 600;
+}
+
+header nav a {
+    color: #ffffff;
+    margin: 0 0.5rem;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    color: #adb5bd; /* gris claro al pasar el mouse */
+    text-decoration: none;
+}

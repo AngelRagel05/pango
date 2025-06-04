@@ -4,23 +4,19 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request;
 
 Route::get('/', function () {
-    return view('mainText');
+    return view('inicioText');
 })->name('inicio');
 
-Route::get('/quienes-somos', function () {
+Route::get('/sobre-mi', function () {
     return view('nosotrosText');
-})->name('quienes.somos');
+})->name('sobre.mi');
 
-Route::get('/proyecto/{numero?}', function ($numero = 1) {
+Route::get('/proyectos/{numero?}', function ($numero = 1) {
     if ($numero <= 0) {
         return redirect('/')->with('error', 'El número del proyecto debe ser mayor que cero.');
     }
     return view('proyectoText', ['numero' => $numero]);
-})->name('proyecto');
-
-Route::get('/servicios', function () {
-    return view('serviciosText');
-})->name('servicios');
+})->name('proyectos');
 
 Route::get('/contacto', function () {
     return view('contactoText');

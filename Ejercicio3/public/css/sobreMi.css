@@ -1,0 +1,29 @@
+/* SOBRE MÍ */
+main {
+    background-color: #F1F8E9; /* verde muy claro */
+    color: #1B5E20; /* verde oscuro para el texto */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
+    font-size: 1.05rem;
+    height: 65vh;
+}
+
+/* Título */
+main h2 {
+    color: #2E7D32; /* verde intenso */
+    font-weight: 700;
+    margin-bottom: 1.2rem;
+}
+
+/* Párrafos */
+main p {
+    margin-bottom: 1rem;
+    line-height: 1.7;
+}
+
+/* Destacar habilidades o frases importantes si las marcas con <span> en el contenido */
+main p span {
+    color: #F9ED69; /* amarillo vibrante */
+    font-weight: bold;
+}

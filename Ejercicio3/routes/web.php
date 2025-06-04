@@ -8,7 +8,7 @@ Route::get('/', function () {
 })->name('inicio');
 
 Route::get('/sobre-mi', function () {
-    return view('nosotrosText');
+    return view('sobreMiText');
 })->name('sobre.mi');
 
 Route::get('/proyectos/{numero?}', function ($numero = 1) {

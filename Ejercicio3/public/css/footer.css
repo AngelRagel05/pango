@@ -1,6 +1,7 @@
+/* FOOTER */
 footer {
-    background-color: #343a40;
-    color: #ffffff;
+    background-color: #2E7D32; /* verde intenso */
+    color: #FFFFFF;
     padding: 1rem 0;
     text-align: center;
     margin-top: 3rem;
@@ -12,15 +13,15 @@ footer p {
 }
 
 footer a {
-    color: #ffffff;
+    color: #FFFFFF;
     margin: 0 0.5rem;
     text-decoration: underline;
-    display: inline-block; /* necesario para que transform funcione */
+    display: inline-block;
     transition: color 0.3s ease, transform 0.3s ease;
 }
 
 footer a:hover {
-    color: #adb5bd;           /* cambia a gris claro */
+    color: #F9ED69;         /* amarillo vivo */
     text-decoration: none;
-    transform: scale(1.1);    /* agranda un poco el texto */
+    transform: scale(1.1);  /* efecto de agrandado */
 }

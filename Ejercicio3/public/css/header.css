@@ -1,6 +1,7 @@
+/* HEADER */
 header {
-    background-color: #343a40;
-    color: #ffffff;
+    background-color: #2E7D32; /* verde intenso */
+    color: #FFFFFF;
     padding: 1rem 0;
     margin-bottom: 1.5rem;
 }
@@ -11,13 +12,26 @@ header h1 {
 }
 
 header nav a {
-    color: #ffffff;
+    color: #FFFFFF;
     margin: 0 0.5rem;
     text-decoration: underline;
-    transition: color 0.3s ease;
+    display: inline-block; /* necesario para el transform */
+    transition: color 0.3s ease, transform 0.3s ease;
 }
 
 header nav a:hover {
-    color: #adb5bd; /* gris claro al pasar el mouse */
+    color: #F9ED69;         /* amarillo vivo */
+    text-decoration: none;
+    transform: scale(1.1);  /* agrandado al pasar el mouse */
+}
+
+.nav-link.active {
+    color: #F9ED69 !important;  /* amarillo */
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #F9ED69;
+    transform: scale(1.1);
     text-decoration: none;
 }

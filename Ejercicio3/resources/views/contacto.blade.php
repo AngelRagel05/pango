@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="{{ asset('css/footer.css') }}">
     <link rel="stylesheet" href="{{ asset('css/contacto.css') }}">
 
-    <title>@yield('title', 'Mi sitio web')</title>
+    <title>@yield('titulo', 'Mi sitio web')</title>
 </head>
 
 <body>

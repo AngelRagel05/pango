@@ -12,7 +12,7 @@ Route::get('/sobre-mi', function () {
 })->name('sobre.mi');
 
 Route::get('/proyectos/{numero?}', function ($numero = 1) {
-    if ($numero <= 0) {
+    if ($numero <= 0 || !is_numeric($numero)) {
         return redirect('/')->with('error', 'El número del proyecto debe ser mayor que cero.');
     }
     return view('proyectoText', ['numero' => $numero]);

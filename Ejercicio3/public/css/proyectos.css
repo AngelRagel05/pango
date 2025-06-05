@@ -1,0 +1,58 @@
+/* PROYECTOS */
+main {
+    background-color: #F1F8E9; /* Verde muy claro de fondo */
+    color: #1B5E20;            /* Verde oscuro para el texto */
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+/* Título principal */
+main h2 {
+    color: #2E7D32;            /* Verde vibrante */
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+/* Tarjetas de proyecto */
+.card {
+    background-color: #ffffff;
+    border: 2px solid #C8E6C9; /* Borde verde claro */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 12px;
+}
+
+/* Al pasar el mouse por encima */
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 20px rgba(46, 125, 50, 0.2); /* sombra verde suave */
+}
+
+/* Título de cada proyecto */
+.card-title {
+    color: #2E7D32;
+    font-weight: bold;
+}
+
+/* Texto general */
+.card-text {
+    color: #1B5E20;
+    line-height: 1.5;
+}
+
+/* Footer de la tarjeta */
+.card-footer {
+    border-top: none;
+}
+
+/* Texto técnico */
+.card-footer small {
+    color: #555;
+    font-style: italic;
+}
+
+/* Opcional: acento amarillo al hover de texto dentro */
+.card:hover .card-title,
+.card:hover .card-text,
+.card:hover small {
+    color: #F9ED69;
+}

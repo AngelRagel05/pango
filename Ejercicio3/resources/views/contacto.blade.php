@@ -15,7 +15,7 @@
     <!-- Estilos personalizados -->
     <link rel="stylesheet" href="{{ asset('css/header.css') }}">
     <link rel="stylesheet" href="{{ asset('css/footer.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/proyectos.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/contacto.css') }}">
 
     <title>@yield('title', 'Mi sitio web')</title>
 </head>
@@ -24,7 +24,7 @@
     @include('layouts.header')
 
     <main class="container my-5">
-        @yield('contenidoProyecto')
+        @yield('contenidoContacto')
     </main>
 
     @include('layouts.footer')

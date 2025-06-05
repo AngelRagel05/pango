@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request;
+use App\Http\Controllers\ContactoController;
 
 Route::get('/', function () {
     return view('inicioText');
@@ -21,3 +22,6 @@ Route::get('/proyectos/{numero?}', function ($numero = 1) {
 Route::get('/contacto', function () {
     return view('contactoText');
 })->name('contacto');
+
+Route::get('/contacto', [ContactoController::class, 'formulario'])->name('contacto');
+Route::post('/contacto', [ContactoController::class, 'enviar'])->name('contacto.enviar');

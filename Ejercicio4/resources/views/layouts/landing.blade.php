@@ -10,7 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Favicon -->
-    <link rel="icon" href="{{ asset('Logo.ico') }}" type="image/x-icon">
+    <link rel="icon" href="{{ asset('assets/img/ico/Logo.ico') }}" type="image/x-icon">
 
     <title>
         @yield('title', 'Mi sitio web')

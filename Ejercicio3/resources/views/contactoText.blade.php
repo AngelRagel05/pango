@@ -1,8 +1,12 @@
-@extends('contacto')
+@extends('layouts.landing')
+
+@section('custom_css')
+    <link rel="stylesheet" href="{{ asset('css/contacto.css') }}">
+@endsection
 
 @section('titulo', 'Contacto')
 
-@section('contenidoContacto')
+@section('contenido')
     <div class="container">
         <h2 class="mb-4">Contacta con Nosotros</h2>
 
